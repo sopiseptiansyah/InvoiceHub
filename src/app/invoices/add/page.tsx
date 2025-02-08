@@ -1,9 +1,12 @@
-import React from 'react'
+import { Metadata } from 'next';
+import React from 'react';
+
+export const metadata: Metadata = {
+  title: 'Add Invoice',
+};
 
 const AddInvoice = () => {
-  return (
-    <div>Add Invoice</div>
-  )
-}
+  return <div>halooo</div>;
+};
 
-export default AddInvoice
+export default AddInvoice;
